@@ -111,7 +111,7 @@ if submitted:
 
         # --- SEND DATA TO DISCORD ---
         # PASTE YOUR WEBHOOK URL BELOW
-        webhook_url = "https://discordapp.com/api/webhooks/1454866233714413724/x0wbhqvgDxxHUaOVp7xiF6o3RFBxeYtXubuoMWQo2f-IUnkJAaqN0uHAQuZm3E7WRi1M"
+        webhook_url = "https://discordapp.com/api/webhooks/1455077226860249132/Kb2Hns5-Onv80e6pIZAzUvxrD1OeLe2hnPlut5opXh_bqO6wBo0_ZclXu0kvN08HtDgb"
         
         # Format skills nicely
         skills_str = ", ".join(skills) if skills else "None"
@@ -138,3 +138,4 @@ if submitted:
             requests.post(webhook_url, json=payload)
         except:
             pass
+
